@@ -1,0 +1,538 @@
+
+.logo {
+    width: 60px;
+    height: 58px;
+}
+
+.textt {
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+    font-size: 23pt;
+}
+
+.logo2 {
+    width: 60px;
+    height: 58px;
+}
+
+
+.textt2 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+    font-size: 19pt;
+}
+
+.header {
+
+    width: 1335px;
+    margin: auto;
+    background-color:#1f1f1f;
+    height: 111px;
+    vertical-align: middle;
+    border-radius:15px;
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+
+    box-shadow: 0px 0px 15px #1f1f1f;
+
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.logotextt {
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+
+.button_box {
+    margin: 100px;
+    height: 30px;
+    width: 280px;
+
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.header_button {
+    background-color: #1f1f1f;
+    color: whitesmoke;
+    font-family: 'Arial Black', sans-serif;
+    padding: 16px;
+    padding-right: 36px;
+    font-size: 20px;
+    border: none;
+    margin-left: 60px;
+    width: 150px;
+
+
+    box-shadow:0px 0px 5px whitesmoke;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+
+.header_button:hover {
+    transition: 0.3s;
+    background-color: whitesmoke;
+    color: #2a2d30;
+}
+
+.onas {
+    padding: px;
+}
+.name {
+   
+    width: 700px;
+    color: whitesmoke;
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.card{
+    background-color: whitesmoke;
+    color: rgb(77, 77, 77);
+    border-radius: 42px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: ;
+    width: 1300px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+ 
+
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: #001c3a;
+
+}
+
+.inf {
+  border-radius: 15px;
+}
+
+   .content-container {
+    display: flex;
+    width: 1200px;
+    margin: 15px auto;
+    border-radius: 42px;
+}
+
+
+
+.left-text, .main-content, .right-text {
+    flex: 1;
+}
+
+.left-text, .right-text {
+    background: url(163.png) no-repeat center top / cover;
+    color: whitesmoke;
+    padding: 30px;
+    border-radius: 30px;
+     /* Цвет фона для текста слева и справа (по желанию) */
+}
+
+.left-text, .right-text h2 {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    color: #282828bd;
+}
+
+.main-content {
+    background-color:whitesmoke; /* Цвет фона для основного текста (по желанию) */
+}
+
+.infa {
+    border-radius: 15px;
+    box-shadow: ;
+    color:  url('eth1.png') no-repeat center top / cover;
+    padding: 5px;
+    font-size: 1px;
+    margin-top: 100px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    border-width: 3px;
+    border-style: solid ;
+    border-color: whitesmoke;
+    font-size: 25px;
+    background: whitesmoke ;
+
+    display: flex;
+    justify-self: center;
+
+     box-shadow: 0px 0px 10px #000518;
+
+}
+
+.icon {
+    margin-right: 70px;
+    border-radius: 15px;
+}
+
+.card1{
+    background-color: whitesmoke;
+    color: rgb(77, 77, 77);
+    border-radius: 42px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: ;
+    /* padding-left: 30px;
+    padding-top: 2px;
+    padding-bottom: 5px; */
+    width: 1300px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+
+        border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: #001c3a;
+
+}
+
+.test1{
+    background-color: #ffffff;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.test_button {
+    background-color: #2a2d30;
+    color: whitesmoke;
+    font-family: 'Arial Black', sans-serif;
+    padding: 16px;
+    padding-right: 70px;
+    font-size: 20px;
+    border: none;
+    width: 200px;
+
+    box-shadow:0px 0px 5px whitesmoke;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: whitesmoke;
+
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.test_button:hover {
+     transition: 0.3s;
+     background-color: whitesmoke;
+     color: #2a2d30;
+   
+}
+.footer {
+    width: 1135px;
+    height: 230px;
+    margin: auto;
+    background-color: rgb(226, 235, 255);
+    padding: 20px;
+    box-sizing: border-box;
+    vertical-align: middle;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+footer {
+    background-color: rgb(226, 235, 255);
+}
+
+.creators {
+    font-size: 13px;
+    margin-left: 380px;
+}
+
+.socialnetworks {
+    font-size: 13px;
+}
+
+.logotextt2 {
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(162.gif);
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.creatorsfont {
+    font-size: 20px;
+}
+
+.socialnetworksfont {
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.video_name {
+    width: 800px;
+    color: whitesmoke;
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.video{
+    background-color: rgb(255, 255, 255);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 1050px;
+    margin: auto;
+    margin-bottom: 60px;
+    height: 600px;
+    border-radius: 32px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #1f1f1f;
+    color: whitesmoke;
+    font-family: 'Arial Black', sans-serif;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    margin-left: 60px;
+    width: 150px;
+
+    box-shadow:0px 0px 5px whitesmoke;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: whitesmoke;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: 60px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd; 
+    transition: 0.4s;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    transition: 0.3s;
+    background-color: whitesmoke;
+    color: #2a2d30;;
+}
+
+.socialnetworksfont a {
+    text-decoration: none;
+
+}
+
+.onas2 {
+    margin-top: 20px;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header_button2 {
+    background-color:skyblue;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 16px;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    margin-right:;
+    width: 650px;
+    margin-top: -100px;
+    margin-bottom: 120px;
+
+    box-shadow:0px 0px 15px skyblue;
+    border-width: 0px;
+    border-style: double;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card2{
+    background-color: #5b646e;
+    color: rgb(77, 77, 77);
+    border-radius: 42px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: ;
+    /* padding-left: 30px;
+    padding-top: 2px;
+    padding-bottom: 5px; */
+    width: 00px;
+    height: 300px;
+    margin-top: ;
+    margin-bottom: 10px;
+    padding: 100px 30px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.header_button2:hover {
+    border-radius: 20px;
+    background-color: #ff8b0f;
+    box-shadow:0px 0px 15px  #ff8b0f;
+    transition: 0.3s;
+}
+
+.footer {
+    width: 1135px;
+    height: 230px;
+    margin: auto;
+    background-color: #1f1f1f;
+    padding: 20px;
+    box-sizing: border-box;
+    vertical-align: middle;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+footer {
+    background-color:#1f1f1f;
+    border-width: 5px;
+    border-style: double;
+    border-color: #4d4d4d;
+    box-shadow: 0px 0px 20px #1f1f1f;
+    border-radius: 15px;
+}
+
+.creators {
+    font-size: 13px;
+}
+
+.socialnetworks {
+    font-size: 13px;
+}
+
+.logotextt2 {
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+
+.creators {
+    font-size: 13px;
+    margin-left: 380px;
+    font-family:'Arial Black', sans-serif;
+    color: whitesmoke;
+}
+
+.socialnetworks {
+    font-size: 13px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+}
+
+.logotextt2 {
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+
+.creatorsfont {
+    font-size: 20px;
+}
+
+.socialnetworksfont {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+
+    display: flex;
+    align-items: center;
+}
+
+.textt2 {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
