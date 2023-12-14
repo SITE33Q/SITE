@@ -99,8 +99,20 @@
 .onas {
     padding: px;
 }
+
 .name {
-   
+    padding: 10px;
+    width: 700px;
+    color: whitesmoke;
+    
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 25px;
+}
+
+.name1 {
+    padding-bottom: 30px;
     width: 700px;
     color: whitesmoke;
     
@@ -108,6 +120,7 @@
     justify-content: center;
     margin: auto;
 }
+
 .card{
     background-color: whitesmoke;
     color: rgb(77, 77, 77);
@@ -148,6 +161,7 @@
     background: url(163.png) no-repeat center top / cover;
     color: whitesmoke;
     padding: 30px;
+    margin-left: 10px;
     border-radius: 30px;
      /* Цвет фона для текста слева и справа (по желанию) */
 }
@@ -253,6 +267,7 @@
      color: #2a2d30;
    
 }
+
 .footer {
     width: 1135px;
     height: 230px;
@@ -536,3 +551,59 @@ footer {
     color: whitesmoke;
 }
 
+.button {
+        margin-left: 20px;
+}
+
+.sortButton {
+    margin-right: 20px;
+}
+
+.sortButton {
+    background-color: #2a2d30;
+    color: whitesmoke;
+    font-family: 'Arial Black', sans-serif;
+    padding: 16px;
+    padding-right: 20px;
+    font-size: 20px;
+    border: none;
+    width: 200px;
+    margin-bottom: 50px;
+
+    box-shadow:0px 0px 5px whitesmoke;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    margin: 0 10px;
+
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.sortButton:hover {
+     transition: 0.3s;
+     background-color: whitesmoke;
+     color: #2a2d30;
+     border-style: solid;
+     border-radius: 20px;
+     border-color: whitesmoke;
+   
+}
+
+.test2{
+    background-color: ;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 28px;
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+    display: flex;
+    justify-content: center;
+}
