@@ -23,7 +23,7 @@
             <div class='onas'>
             <input class="header_button" type=button onClick="location.href='#info'" value="О НАС">
             </div>
-            <div class="dropdown">
+           <div class="dropdown">
                 <button class="dropbtn">ДРУГИЕ</button>
                  <div class="dropdown-content">
                <a href="ex2.html">КФУ</a>
@@ -31,30 +31,24 @@
                   <a href="knitu.html">КНИТУ</a>
                   <a href="kgasu.html">КГАСУ</a>
                   <a href="kgey.html">КГЭУ</a>
-                  <a href="ex6.html">///</a>
-                  <a href="ex7.html">///</a>
-                  <a href="ex8.html">///</a>
-                  <a href="ex9.html">///</a>
+                  <a href="kgay.html">КГАУ</a>
+                  <a href="kiu.html">КИУ</a>
+                  <a href="tisbi.html">ТИСБИ</a>
                 </div>
               </div>
         </div>
     </div>
-    <div class="name">
-        <h1>КГАСУ</h1>
-    </div>
-   <!--  <div>
-        <div class="card">
-            <h2>Математика</h2>
-            <p>
-<b>Подразделение:</b> Институт математики и механики им. Н.И. Лобачевского</p>
-<p><b>Профиль:</b> Математика в цифровой экономике</p>
-<p><b>Набор экзаменов:</b></p>
-<p>• Профильная математика</p>
-<p>• Русский язык</p>
-<p>• Информатика/Физика</p>
-<div class='inf'><h2>khdjf</h2></div>
-        </div>
-    </div> -->
+    <div class="name"><h1>КГАСУ</h1></div>
+    <div class="name1">
+    
+<div class="sortButtons">
+    <button class="sortButton" data-sort="score" style="float: left;">Баллы по возрастанию</button>
+    <button class="sortButton" onClick="location.href='kgasu.html'" style="float: left;">Баллы по убыванию</button>
+    <div style="clear: both;"></div>
+</div>
+</div>
+    <div id="cardsContainer">
+
         <div class="card">
  <div class="content-container">
         <div class="main-content">
@@ -202,6 +196,28 @@
         </div>
     </div>
 </div>
+</div>
+
+<script>const sortButtons = document.querySelectorAll('.sortButton');
+const cardsContainer = document.getElementById('cardsContainer');
+
+sortButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const sortBy = button.dataset.sort;
+
+    const sortedCards = Array.from(cardsContainer.getElementsByClassName('card')).sort((a, b) => {
+      const aValue = Number(a.querySelector('.right-text h2').textContent.split(' ')[0]);
+      const bValue = Number(b.querySelector('.right-text h2').textContent.split(' ')[0]);
+      
+      return aValue - bValue;
+    });
+
+    sortedCards.forEach(card => {
+      cardsContainer.appendChild(card);
+    });
+  });
+});</script>
+
 
      <div class="video_name">
         <h1>САЙТ ВУЗА</h1>
